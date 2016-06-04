@@ -4,171 +4,257 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Accesories Fashion</title>
+    <link rel="stylesheet" href="css/ionicons.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="" href="js/jquery-1.12.3.min.js">
   </head>
   <body>
     <header>
+      <div class="Fondo-gris pad1-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="titulo">Default Welcome Msg!</p>
+            </div>
+            <div class="col-md-6 text-right">
+              <div class="dropdown inline">
+                <button id="dropdownMenu1" type="button" data-toggle="dropdown" aria-expnded="true" class="largo btn btn-default dropdown-toggle"><img src="images/flag1.png" class="inline">
+                  <p class="inline">Language</p><span class="inline caret"></span>
+                </button>
+                <ul aria-labelledby="dropdownMenu1" class="dropdown-menu">
+                  <li><a class="largo-dropdown"> <img src="images/flag1.png" class="inline">
+                      <p class="inline">English</p></a></li>
+                  <li><a><img src="images/flag2.png" class="inline">
+                      <p class="inline">French</p></a></li>
+                </ul>
+              </div>
+              <div class="dropdown inline">
+                <button id="dropdownMenu1" type="button" data-toggle="dropdown" aria-expnded="true" class="largo btn btn-default dropdown-toggle"><i class="inline glyphicon glyphicon-usd"></i>
+                  <p class="inline">Currency</p><span class="inline caret"></span>
+                </button>
+                <ul aria-labelledby="dropdownMenu1" class="tamano-menu dropdown-menu">
+                  <li><a></a></li>
+                  <li><a></a></li>
+                </ul>
+              </div>
+              <div class="dropdown inline">
+                <button id="dropdownMenu1" type="button" data-toggle="dropdown" aria-expnded="true" class="largo btn btn-default dropdown-toggle"><i class="inline glyphicon glyphicon-user"></i>
+                  <p class="inline">My account</p><span class="inline caret"></span>
+                </button>
+                <ul aria-labelledby="dropdownMenu1" class="dropdown-menu">
+                  <li><a></a></li>
+                  <li><a></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="Fondo-blanco pad5">		
       <div class="container">
         <div class="row">
-          <div class="header-selection">
-            <p>Default Welcome Msg!</p>
-            <div class="dropdown">
-              <button id="dropdownMenu1" type="button" data-toggle="dropdown" aria-expnded="true" class="btn btn-default dropdown-toggle"><img src="images/flag1.png"><span class="caret"></span></button>
-              <ul aria-labelledby="dropdownMenu1" class="dropdown-menu">
-                <li><a></a></li>
-                <li><a></a></li>
-              </ul>
-              <button id="dropdownMenu1" type="button" data-toggle="dropdown" aria-expnded="true" class="btn btn-default dropdown-toggle"><img src="images/flag2.png"><span class="caret"></span></button>
-              <ul aria-labelledby="dropdownMenu1" class="dropdown-menu">
-                <li><a></a></li>
-                <li><a></a></li>
-              </ul>
-              <button id="dropdownMenu1" type="button" data-toggle="dropdown" aria-expnded="true" class="btn btn-default dropdown-toggle"><img src="images/flag2.png"><span class="caret"></span></button>
-              <ul aria-labelledby="dropdownMenu1" class="dropdown-menu">
-                <li><a></a></li>
-                <li><a></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="header-opening">
-            <div class="col-md-4">
-              <div class="hour"><i class="glyphicon glyphicon-time"></i>
-                <p class="bigletter">OPENING TIME</p>
-                <p class="numbers">9:00 AM - 10:00 PM</p>
+          <div class="header-opening pad5tb">
+            <div class="col-md-4 text-left">
+              <div class="hour"><i class="font-big inline glyphicon glyphicon-time"></i>
+                <div class="time inline">
+                  <p class="bigletter">OPENING TIME</p>
+                  <p class="numbers">9:00 AM - 10:00 PM</p>
+                </div>
               </div>
             </div>
-            <div class="col-md-4"><img src="images/logo.png" class="logo"></div>
-            <div class="col-md-4">
-              <input placeholder="search" class="glyphicon glyphicon-search">
+            <div class="col-md-4 text-center pad4b"><img src="images/logo.png" class="logo"></div>
+            <div class="col-md-4 text-right">
+              <div class="input-group largo-search text-right">
+                <input type="text" placeholder="Search" class="form-control"><span class="input-group-btn">
+                  <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button></span>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="Fondo-gris">
+      <div class="container">
         <div class="row">
           <div class="menu">
-            <div class="col-md-6">
-              <div class="menu-button">HOME</div>
-              <div class="menu-button">CONTACT US</div>
-            </div>
-            <div class="col-md-6">
-              <div class="car"><i></i>
-                <p>My Cart</p>
-                <p>2 item(s) - $244.00</p>
+            <div class="col-md-6 text left"><a class="martop36 inline"><a href="index.html" class="menu-button">HOME</a></a><a class="martop36 inline"><a href="index1.html" class="menu-button">CONTACT US</a></a></div>
+            <div class="col-md-6 text-right">
+              <div class="dropdown inline">
+                <button id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" class="car fondo-cafe btn btn-default dropdown-toggle"><i class="glyphicon glyphicon-shopping-cart inline"></i>
+                  <p class="inline">My Cart</p>
+                  <p>2 item(s) - $244.00</p>
+                </button>
+                <div aria-labelledby="dropdownMenu1" class="dropdown-menu dropdown-menu-right">
+                  <div class="container">
+                    <div class="row pad5p">
+                      <div class="img inline"><img src="images/cart-1.jpg"></div>
+                      <div class="text inline">
+                        <p>Aliquam Consequat</p>
+                        <p class="inline pad15pr">1 x $500</p><i class="inline glyphicon glyphicon-remove"></i>
+                      </div>
+                    </div>
+                    <div class="row pad5p">
+                      <div class="img inline"><img src="images/cart-2.jpg"></div>
+                      <div class="text inline">
+                        <p>Quisque In Arcuc</p>
+                        <p class="inline pad15pr">1 x $200</p><i class="inline glyphicon glyphicon-remove"></i>
+                      </div>
+                    </div>
+                    <div class="row pad5p">
+                      <div class="col-md-2">
+                        <ul class="deconon">
+                          <li class="deconon">
+                            <p class="bold">Sub-Total</p>
+                            <p class="bold">Eco Tax (-2.00)</p>
+                            <p class="bold">VAT (20%)</p>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <ul class="deconon">
+                          <li class="deconon">
+                            <p class="text-rojo">$700</p>
+                            <p class="text-rojo">$7.00</p>
+                            <p class="text-rojo">$40.00</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="fondo-contactanos color">
+      <div class="container">
         <div class="row">
           <div class="contac">
             <div class="col-md-6">
               <div class="contactus">CONTACT US</div>
             </div>
             <div class="col-md-6">
-              <p>Contact info</p>
-              <p>phone:0(1234)567 890</p>
-              <p>Mail:Infor@roadthemes.com</p>
-              <p>Address: No 40 Baria Street 133/2 NewYork City, NY, United States.</p>
+              <div class="contact-info color-blanco">
+                <p>Contact info</p>
+                <p>phone:0(1234)567 890</p>
+                <p>Mail:Infor@roadthemes.com</p>
+                <p>Address: No 40 Baria Street 133/2 NewYork City, NY, United States.</p>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="fondo-mapa">
+      <div class="container">
         <div class="row">
-          <div class="col-md-6"></div>
+          <div class="col-md-6"><iframe class=".padt10p" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2139.857371553815!2d-73.96132285105115!3d40.669224525090726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1465060872640" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
           <div class="col-md-6">
             <div class="row">
               <div class="col-md-6">
-                <input placeholder="First Name">
-                <input placeholder="Email">
+                <input placeholder="First Name" class="datos Fondo-gris pad10b">
+                <input placeholder="Email" class="datos Fondo-gris pad10b">
               </div>
               <div class="col-md-6">
-                <input placeholder="Last Name">
-                <input placeholder="Webside">
+                <input placeholder="Last Name" class="datos Fondo-gris pad10b">
+                <input placeholder="Webside" class="datos Fondo-gris pad10b">
               </div>
             </div>
             <div class="row">
-              <input placeholder="Subject">
-              <input placeholder="Message">
-              <button>SEND</button>
+              <input placeholder="Subject" class="subject Fondo-gris pad10b">
+              <input placeholder="Message" class="messages Fondo-gris pad10b">
+              <div class="send text-right">
+                <button class="btn-send">SEND</button>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="Fondo-gris marpad">
+      <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <h5>ACCESORIES</h5>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quod mollitia dolorem laborum omnis totam et, placeat, quibusdam distinctio sed voluptate, consectetur unde ut alias quae adipisci corporis culpa maiores!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quos.</p><i></i><i></i><i></i><i></i><i>							</i>
+            <h4 class="bold">ACCESORIES</h4>
+            <p class="pie-text pad15b"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quod mollitia dolorem laborum omnis totam et, placeat, quibusdam distinctio.</p><i class="ion-social-facebook cuadrado"></i><i class="ion-social-twitter cuadrado"></i><i class="ion-social-rss cuadrado"></i><i class="ion-social-skype cuadrado"></i><i class="ion-social-dribbble-outline cuadrado"></i>
           </div>
           <div class="col-md-2">
-            <h5>MY ACCOUNT</h5>
-            <ul>
-              <li><i>
-                  <p>My Account</p></i></li>
-              <li><i>
-                  <p>Order History</p></i></li>
-              <li><i>
-                  <p>Wish List</p></i></li>
-              <li><i>
-                  <p>Newsletter</p></i></li>
+            <h4 class="bold">MY ACCOUNT</h4>
+            <ul class="deconon">
+              <li class="pad8b"><i class="inline ion-ios-play">
+                  <p class="inline font-weigh">My Account</p></i></li>
+              <li class="pad8b"><i class="inline ion-ios-play">
+                  <p class="inline font-weigh">Order History</p></i></li>
+              <li class="pad8b"><i class="inline ion-ios-play">
+                  <p class="inline font-weigh">Wish List</p></i></li>
+              <li class="pad8b"><i class="inline ion-ios-play">
+                  <p class="pad15b inline font-weigh">Newsletter</p></i></li>
             </ul>
           </div>
           <div class="col-md-2">
-            <h5>INFORMATION</h5>
-            <ul>
-              <li><i>
-                  <p>About us</p></i></li>
-              <li><i>
-                  <p>Delivery Information</p></i></li>
-              <li><i>
-                  <p>Privacy Policy</p></i></li>
-              <li><i>
-                  <p>Terms & Condicions</p></i></li>
+            <h4 class="bold">INFORMATION</h4>
+            <ul class="deconon">
+              <li class="pad8b"><i class="inline ion-ios-play">
+                  <p class="inline font-weigh">About us</p></i></li>
+              <li class="pad8b"><i class="inline ion-ios-play">
+                  <p class="inline font-weigh">Delivery Information</p></i></li>
+              <li class="pad8b"><i class="inline ion-ios-play">
+                  <p class="inline font-weigh">Privacy Policy</p></i></li>
+              <li class="pad8b"><i class="inline ion-ios-play">
+                  <p class="inline font-weigh">Terms & Condicions</p></i></li>
             </ul>
           </div>
           <div class="col-md-2">
-            <h5>EXTRAS</h5>
-            <ul>
-              <li><i>
-                  <p>Brands</p></i></li>
-              <li><i>
-                  <p>Gift Vouchers</p></i></li>
-              <li><i>
-                  <p>Affiliates</p></i></li>
-              <li><i>
-                  <p>Specials</p></i></li>
+            <h4 class="bold">EXTRAS</h4>
+            <ul class="deconon">
+              <li class="pad8b"><i class="inline ion-ios-play">
+                  <p class="inline font-weigh">Brands</p></i></li>
+              <li class="pad8b"><i class="inline ion-ios-play">
+                  <p class="inline font-weigh">Gift Vouchers</p></i></li>
+              <li class="pad8b"><i class="inline ion-ios-play">
+                  <p class="inline font-weigh">Affiliates</p></i></li>
+              <li class="pad8b"><i class="inline ion-ios-play">
+                  <p class="inline font-weigh">Specials</p></i></li>
             </ul>
           </div>
           <div class="col-md-3">
-            <h5>ABOUT US</h5>
-            <ul>
-              <li><i></i>
-                <p>8901 Marmora Road, Glasgow DO4 89</p>
-                <p>GR. New York</p>
+            <h4 class="bold">ABOUT US</h4>
+            <ul class="deconon">
+              <li class="inline">
+                <div class="contact-icon inline"><i class="inline icon-position-contact ion-ios-location"></i></div>
+                <p class="inline subti">8901 Marmora Road, Glasgow DO4 89</p>
+                <p class="inline subti pad33">GR. New York</p>
               </li>
-              <li><i></i>
-                <p>(0123)456789</p>
-                <p>(0987)654321</p>
+              <li>
+                <div class="contact-icon inline"><i class="inline icon-position-contact ion-ios-telephone"></i></div>
+                <p class="inline subti">(0123)456789</p>
+                <p class="inline subti">(0987)654321</p>
               </li>
-              <li><i></i>
-                <p>admin@bootexperts.com</p>
+              <li>
+                <div class="contact-icon inline"><i class="inline message icon-position-contact ion-android-mail"></i></div>
+                <p class="inline subti">admin@bootexperts.com</p>
               </li>
             </ul>
           </div>
         </div>
       </div>
-    </header>
-    <footer>
+    </div>
+    <footer class="bg-footer">
       <div class="container">
         <div class="row fondo-pie">
           <div class="col-md-6">
-            <p class="inline">Copyright &copy;2015 <a class="inline">BootExperts.</a></p>
-            <p class="inline">All rights reserved.</p>
+            <p class="padt15p subti color-blanco inline">Copyright &copy;2015 <a class="subti text-rojo inline">BootExperts.</a></p>
+            <p class="subti color-blanco inline">All rights reserved.</p>
           </div>
-          <div class="col-md-6"><img src="images/payment.png" class="text-left"></div>
+          <div class="col-md-6 text-right"><img src="images/payment.png" class="padt10p pad10b text-right"></div>
         </div>
       </div>
     </footer>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -46,6 +46,10 @@ hr {
   padding-bottom: 8px;
 }
 
+.pad10b {
+  padding-bottom: 10px;
+}
+
 .pad15pr {
   padding-right: 15px;
 }
@@ -70,8 +74,20 @@ hr {
   padding-top: 10px;
 }
 
+.padt15p {
+  padding-top: 15px;
+}
+
+.pad33 {
+  padding-left: 33px;
+}
+
 .pad8tp {
   padding-top: 8px;
+}
+
+.martop36 {
+  margin-top: 36px;
 }
 
 .Fondo-gris {
@@ -290,6 +306,7 @@ hr {
 .marpad {
   margin-top: 50px;
   padding-top: 40px;
+  height: 260px;
 }
 
 .pie-text {
@@ -298,4 +315,100 @@ hr {
 
 .font-weigh {
   font-weight: normal;
+}
+
+.contact-icon {
+  border-radius: 100%;
+  padding: 10px;
+  background-color: #fff;
+  width: 11%;
+  height: 30px;
+}
+
+.icon-position-contact {
+  position: relative;
+  top: -3px;
+}
+
+.message {
+  right: 2px;
+}
+
+.subti {
+  font-size: 12px;
+}
+
+.cuadrado {
+  padding: 8px 10px;
+  background-color: #fff;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.bg-footer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.color-blanco {
+  color: #fff;
+}
+
+.fondo-contactanos {
+  background-image: url(../images/contact.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 400px;
+  height: 400px;
+}
+
+.contactus {
+  font-size: 50px;
+  color: #fff;
+  background-color: #ffa3a3;
+  margin-top: 100px;
+}
+
+.contact-info {
+  margin-top: 100px;
+  margin-left: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.color {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fondo-mapa {
+  margin-top: 25px;
+}
+
+.datos {
+  width: 80%;
+  height: 40px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.subject {
+  width: 86%;
+  height: 40px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.messages {
+  width: 86%;
+  height: 100px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.btn-send {
+  background-color: #757575;
+  border: 1px solid #757575;
+  color: #fff;
+  padding: 10px;
+  margin-right: 70px;
 }

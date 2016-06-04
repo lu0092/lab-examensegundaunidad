@@ -4,165 +4,229 @@ html(lang="en")
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
 		meta(charset="utf-8")
 		title Accesories Fashion
+		link(rel="stylesheet",href="css/ionicons.css")
 		link(rel="stylesheet", href="css/bootstrap.css")
 		link(rel="stylesheet", href="css/main.css")
 		link(rel="", href="js/jquery-1.12.3.min.js")
 	body
 		header
+			.Fondo-gris.pad1-2
+				.container
+					.row
+						.col-md-6
+							p.titulo Default Welcome Msg!
+						.col-md-6.text-right
+							.dropdown.inline
+								button.largo.btn.btn-default.dropdown-toggle#dropdownMenu1(type="button", data-toggle="dropdown", aria-expnded="true")
+									img.inline(src="images/flag1.png")
+									p.inline Language
+									span.inline.caret
+								ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+									li
+										a.largo-dropdown 
+											img.inline(src="images/flag1.png")
+											p.inline English
+									li
+										a
+											img.inline(src="images/flag2.png")
+											p.inline French
+							.dropdown.inline
+								button.largo.btn.btn-default.dropdown-toggle#dropdownMenu1(type="button", data-toggle="dropdown", aria-expnded="true")
+									i.inline.glyphicon.glyphicon-usd
+									p.inline Currency
+									span.inline.caret
+								ul.tamano-menu.dropdown-menu(aria-labelledby="dropdownMenu1")
+									li
+										a
+									li
+										a
+							.dropdown.inline
+								button.largo.btn.btn-default.dropdown-toggle#dropdownMenu1(type="button", data-toggle="dropdown", aria-expnded="true")
+									i.inline.glyphicon.glyphicon-user
+									p.inline My account
+									span.inline.caret
+								ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+									li
+										a
+									li
+										a
+		.Fondo-blanco.pad5		
 			.container
 				.row
-					.header-selection
-						p Default Welcome Msg!
-						.dropdown
-							button.btn.btn-default.dropdown-toggle#dropdownMenu1(type="button", data-toggle="dropdown", aria-expnded="true")
-								img(src="images/flag1.png")
-								span.caret
-							ul.dropdown-menu(aria-labelledby="dropdownMenu1")
-								li
-									a
-								li
-									a
-							button.btn.btn-default.dropdown-toggle#dropdownMenu1(type="button", data-toggle="dropdown", aria-expnded="true")
-								img(src="images/flag2.png")
-								span.caret
-							ul.dropdown-menu(aria-labelledby="dropdownMenu1")
-								li
-									a
-								li
-									a
-							button.btn.btn-default.dropdown-toggle#dropdownMenu1(type="button", data-toggle="dropdown", aria-expnded="true")
-								img(src="images/flag2.png")
-								span.caret
-							ul.dropdown-menu(aria-labelledby="dropdownMenu1")
-								li
-									a
-								li
-									a
-				.row
-					.header-opening
-						.col-md-4
+					.header-opening.pad5tb
+						.col-md-4.text-left
 							.hour
-								i.glyphicon.glyphicon-time
-								p.bigletter OPENING TIME
-								p.numbers 9:00 AM - 10:00 PM
-						.col-md-4
+								i.font-big.inline.glyphicon.glyphicon-time
+								.time.inline
+									p.bigletter OPENING TIME
+									p.numbers 9:00 AM - 10:00 PM
+						.col-md-4.text-center.pad4b
 							img.logo(src="images/logo.png")
-						.col-md-4
-							input.glyphicon.glyphicon-search(placeholder="search")
+						.col-md-4.text-right
+							.input-group.largo-search.text-right
+								input.form-control(type="text",placeholder="Search")
+								span.input-group-btn
+									button.btn.btn-default(type="button")
+										i.glyphicon.glyphicon-search
+		.Fondo-gris
+			.container
 				.row
 					.menu
-						.col-md-6
-							.menu-button HOME
-							.menu-button CONTACT US
-						.col-md-6
-							.car
-								i.
-								p My Cart
-								p 2 item(s) - $244.00
+						.col-md-6.text.left
+							a.martop36.inline
+								a(href="index.html").menu-button HOME
+							a.martop36.inline
+								a(href="index1.html").menu-button CONTACT US
+						.col-md-6.text-right
+							.dropdown.inline
+								button.car.fondo-cafe.btn.btn-default.dropdown-toggle#dropdownMenu1(data-toggle="dropdown", aria-haspopup="true", aria-expanded="true")
+									i.glyphicon.glyphicon-shopping-cart.inline
+									p.inline My Cart
+									p 2 item(s) - $244.00
+								.dropdown-menu.dropdown-menu-right(aria-labelledby="dropdownMenu1")
+									.container
+										.row.pad5p
+											.img.inline
+												img(src="images/cart-1.jpg")
+											.text.inline
+												p Aliquam Consequat
+												p.inline.pad15pr 1 x $500
+												i.inline.glyphicon.glyphicon-remove
+										.row.pad5p
+											.img.inline
+												img(src="images/cart-2.jpg")
+											.text.inline
+												p Quisque In Arcuc
+												p.inline.pad15pr 1 x $200
+												i.inline.glyphicon.glyphicon-remove
+										.row.pad5p
+											.col-md-2
+												ul.deconon
+													li.deconon
+														p.bold Sub-Total
+														p.bold Eco Tax (-2.00)
+														p.bold VAT (20%)
+											.col-md-2
+												ul.deconon
+													li.deconon
+														p.text-rojo $700
+														p.text-rojo $7.00
+														p.text-rojo $40.00
+		.fondo-contactanos.color
+			.container
 				.row
 					.contac
 						.col-md-6
 							.contactus CONTACT US
 						.col-md-6
-							p Contact info
-							p phone:0(1234)567 890
-							p Mail:Infor@roadthemes.com
-							p Address: No 40 Baria Street 133/2 NewYork City, NY, United States.
+							.contact-info.color-blanco
+								p Contact info
+								p phone:0(1234)567 890
+								p Mail:Infor@roadthemes.com
+								p Address: No 40 Baria Street 133/2 NewYork City, NY, United States.
+		.fondo-mapa
+			.container
 				.row
 					.col-md-6
-
+						<iframe class=".padt10p" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2139.857371553815!2d-73.96132285105115!3d40.669224525090726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1465060872640" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 					.col-md-6
 						.row
 							.col-md-6
-								input(placeholder="First Name")
-								input(placeholder="Email")
+								input.datos.Fondo-gris.pad10b(placeholder="First Name")
+								input.datos.Fondo-gris.pad10b(placeholder="Email")
 							.col-md-6
-								input(placeholder="Last Name")
-								input(placeholder="Webside")
+								input.datos.Fondo-gris.pad10b(placeholder="Last Name")
+								input.datos.Fondo-gris.pad10b(placeholder="Webside")
 						.row
-							input(placeholder="Subject")
-							input(placeholder="Message")
-							button SEND
+							input.subject.Fondo-gris.pad10b(placeholder="Subject")
+							input.messages.Fondo-gris.pad10b(placeholder="Message")
+							.send.text-right
+								button.btn-send SEND
+		.Fondo-gris.marpad
+			.container
 				.row
 					.col-md-3
-						h5 ACCESORIES
-						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quod mollitia dolorem laborum omnis totam et, placeat, quibusdam distinctio sed voluptate, consectetur unde ut alias quae adipisci corporis culpa maiores!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quos.
-						i
-						i
-						i
-						i
-						i							
+						h4.bold ACCESORIES
+						p.pie-text.pad15b  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quod mollitia dolorem laborum omnis totam et, placeat, quibusdam distinctio.
+						i.ion-social-facebook.cuadrado
+						i.ion-social-twitter.cuadrado
+						i.ion-social-rss.cuadrado
+						i.ion-social-skype.cuadrado
+						i.ion-social-dribbble-outline.cuadrado
 					.col-md-2
-						h5 MY ACCOUNT
-						ul
-							li
-								i
-									p My Account
-							li
-								i
-									p Order History
-							li
-								i
-									p Wish List
-							li
-								i
-									p Newsletter
+						h4.bold MY ACCOUNT
+						ul.deconon
+							li.pad8b
+								i.inline.ion-ios-play
+									p.inline.font-weigh My Account
+							li.pad8b
+								i.inline.ion-ios-play
+									p.inline.font-weigh Order History
+							li.pad8b
+								i.inline.ion-ios-play
+									p.inline.font-weigh Wish List
+							li.pad8b
+								i.inline.ion-ios-play
+									p.pad15b.inline.font-weigh Newsletter
 					.col-md-2
-						h5 INFORMATION
-						ul
-							li
-								i
-									p About us
-							li
-								i
-									p Delivery Information
-							li
-								i
-									p Privacy Policy
-							li
-								i
-									p Terms & Condicions
+						h4.bold INFORMATION
+						ul.deconon
+							li.pad8b
+								i.inline.ion-ios-play
+									p.inline.font-weigh About us
+							li.pad8b
+								i.inline.ion-ios-play
+									p.inline.font-weigh Delivery Information
+							li.pad8b
+								i.inline.ion-ios-play
+									p.inline.font-weigh Privacy Policy
+							li.pad8b
+								i.inline.ion-ios-play
+									p.inline.font-weigh Terms & Condicions
 					.col-md-2
-						h5 EXTRAS
-						ul
-							li
-								i
-									p Brands
-							li
-								i
-									p Gift Vouchers
-							li
-								i
-									p Affiliates
-							li
-								i
-									p Specials
+						h4.bold EXTRAS
+						ul.deconon
+							li.pad8b
+								i.inline.ion-ios-play
+									p.inline.font-weigh Brands
+							li.pad8b
+								i.inline.ion-ios-play
+									p.inline.font-weigh Gift Vouchers
+							li.pad8b
+								i.inline.ion-ios-play
+									p.inline.font-weigh Affiliates
+							li.pad8b
+								i.inline.ion-ios-play
+									p.inline.font-weigh Specials
 					.col-md-3
-						h5 ABOUT US
-						ul
+						h4.bold ABOUT US
+						ul.deconon
+							li.inline
+								.contact-icon.inline
+									i.inline.icon-position-contact.ion-ios-location
+								p.inline.subti 8901 Marmora Road, Glasgow DO4 89
+								p.inline.subti.pad33 GR. New York
 							li
-								i
-								p 8901 Marmora Road, Glasgow DO4 89
-								p GR. New York
+								.contact-icon.inline
+									i.inline.icon-position-contact.ion-ios-telephone
+								p.inline.subti (0123)456789
+								p.inline.subti (0987)654321
 							li
-								i
-								p (0123)456789
-								p (0987)654321
-							li
-								i
-								p admin@bootexperts.com
-		footer
+								.contact-icon.inline
+									i.inline.message.icon-position-contact.ion-android-mail
+								p.inline.subti admin@bootexperts.com
+		footer.bg-footer
 			.container
 				.row.fondo-pie
 					.col-md-6
-						p.inline Copyright &copy;2015 
-							a.inline BootExperts.
-						p.inline All rights reserved.
-					.col-md-6
-						img.text-left(src="images/payment.png")
+						p.padt15p.subti.color-blanco.inline Copyright &copy;2015 
+							a.subti.text-rojo.inline BootExperts.
+						p.subti.color-blanco.inline All rights reserved.
+					.col-md-6.text-right
+						img.padt10p.pad10b.text-right(src="images/payment.png")
 
-
-		script(src="js/bootstrap.min.js")
 		script(src="js/jquery-1.12.3.min.js")
+		script(src="js/bootstrap.min.js")
+		
 
 						
