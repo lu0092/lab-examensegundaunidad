@@ -1,22 +1,11 @@
 {
-  "name": "fashionexam",
+  "name": "fashion",
   "version": "1.0.0",
-  "description": "exmen de laboratoria 2da unidad",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "examen laboratoria",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://Lu0092@github.com/lu0092/Lab-Examen2.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lu0092/Lab-Examen2/issues"
-  },
-  "homepage": "https://github.com/lu0092/Lab-Examen2#readme"
+  "license": "ISC"
 }

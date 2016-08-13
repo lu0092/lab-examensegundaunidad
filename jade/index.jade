@@ -1,0 +1,501 @@
+doctype html
+html(lang="en")
+	head
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(charset="utf-8")
+		title Accesories Fashion
+		link(rel="stylesheet",href="css/ionicons.css")
+		link(rel="stylesheet", href="css/bootstrap.css")
+		link(rel="stylesheet", href="css/main.css")
+		link(rel="", href="js/jquery-1.12.3.min.js")
+	body
+		header
+			.Fondo-gris.pad1-2
+				.container
+					.row
+						.col-md-6
+							p.titulo Default Welcome Msg!
+						.col-md-6.text-right
+							.dropdown.inline
+								button.largo.btn.btn-default.dropdown-toggle#dropdownMenu1(type="button", data-toggle="dropdown", aria-expnded="true")
+									img.inline(src="images/flag1.png")
+									p.inline Language
+									span.inline.caret
+								ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+									li
+										a.largo-dropdown 
+											img.inline(src="images/flag1.png")
+											p.inline English
+									li
+										a
+											img.inline(src="images/flag2.png")
+											p.inline French
+							.dropdown.inline
+								button.largo.btn.btn-default.dropdown-toggle#dropdownMenu1(type="button", data-toggle="dropdown", aria-expnded="true")
+									i.inline.glyphicon.glyphicon-usd
+									p.inline Currency
+									span.inline.caret
+								ul.tamano-menu.dropdown-menu(aria-labelledby="dropdownMenu1")
+									li
+										a
+									li
+										a
+							.dropdown.inline
+								button.largo.btn.btn-default.dropdown-toggle#dropdownMenu1(type="button", data-toggle="dropdown", aria-expnded="true")
+									i.inline.glyphicon.glyphicon-user
+									p.inline My account
+									span.inline.caret
+								ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+									li
+										a
+									li
+										a
+		.Fondo-blanco.pad5		
+			.container
+				.row
+					.header-opening.pad5tb
+						.col-md-4.text-left
+							.hour
+								i.font-big.inline.glyphicon.glyphicon-time
+								.time.inline
+									p.bigletter OPENING TIME
+									p.numbers 9:00 AM - 10:00 PM
+						.col-md-4.text-center.pad4b
+							img.logo(src="images/logo.png")
+						.col-md-4.text-right
+							.input-group.largo-search.text-right
+								input.form-control(type="text",placeholder="Search")
+								span.input-group-btn
+									button.btn.btn-default(type="button")
+										i.glyphicon.glyphicon-search
+		.Fondo-gris
+			.container
+				.row
+					.menu
+						.col-md-6.text.left
+							a.inline
+								.menu-button HOME
+							a.inline
+								.menu-button CONTACT US
+						.col-md-6.text-right
+							.dropdown.inline
+								button.car.fondo-cafe.btn.btn-default.dropdown-toggle#dropdownMenu1(data-toggle="dropdown", aria-haspopup="true", aria-expanded="true")
+									i.glyphicon.glyphicon-shopping-cart.inline
+									p.inline My Cart
+									p 2 item(s) - $244.00
+								.dropdown-menu.dropdown-menu-right(aria-labelledby="dropdownMenu1")
+									.container
+										.row.pad5p
+											.img.inline
+												img(src="images/cart-1.jpg")
+											.text.inline
+												p Aliquam Consequat
+												p.inline.pad15pr 1 x $500
+												i.inline.glyphicon.glyphicon-remove
+										.row.pad5p
+											.img.inline
+												img(src="images/cart-2.jpg")
+											.text.inline
+												p Quisque In Arcuc
+												p.inline.pad15pr 1 x $200
+												i.inline.glyphicon.glyphicon-remove
+										.row.pad5p
+											.col-md-2
+												ul.deconon
+													li.deconon
+														p.bold Sub-Total
+														p.bold Eco Tax (-2.00)
+														p.bold VAT (20%)
+											.col-md-2
+												ul.deconon
+													li.deconon
+														p.text-rojo $700
+														p.text-rojo $7.00
+														p.text-rojo $40.00
+		.Fondo-slider#carousel-example-generic.carousel.slide(data-ride="carousel-indictors")
+			ol.carousel-indicators
+				li.active(data-target="#carousel-example-generic" data-slide-to="0")
+				li(data-target="#carousel-example-generic" data-slide-to="1")
+			.carousel-inner(role="listbox")
+				.item.active
+					img(src="images/slider1.jpg")
+					.carousel-caption ...
+				.item
+					img(src="images/slider2.jpg")
+					.carousel-caption
+			a.sliderporte.left.carousel-control(href="#carousel-example-generic" role="button" data-slide="prev")
+				span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+				span.sr-only Previous
+			a.sliderporte.right.carousel-control(href="#carousel-example-generic" role="button" data-slide="next")
+				span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+				span.sr-only Next
+			.container
+				.row
+					.slider.text-center
+						p.tituloprincipal AUTUMN/WINTER LOOKBOOK
+						p.subtitu -2016 COLLECTION-
+		.Fondo-blanco
+			.container		
+				.row.pad5tb
+					.col-md-5
+						img(src="images/banner1.jpg")		
+					.col-md-7
+						img(src="images/banner2.jpg")		
+				.row
+					.col-md-4
+						hr
+					.col-md-4
+						.icono-izquierda
+							i.font-big.glyphicon.glyphicon-menu-left
+							ul.deconon.text-center
+								li.deconon.inline
+									a.lista-hori LATEST
+								li.deconon.inline
+									a.lista-hori BESTSELLER
+								li.deconon.inline
+									a.lista-hori SALE
+						.icono-derecha
+							i.glyphicon.glyphicon-menu-right
+					.col-md-4
+						hr
+				.row
+					.col-md-3.productos
+						img.img-responsive.productos-selec(src="images/a1.jpg")
+						.new NEW
+						.descrip.text-center
+							p.bold.padt10p Deliver Wide
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star-empty
+							i.glyphicon.glyphicon-star-empty
+							p.costes $218.00
+					.col-md-3.productos
+						img.img-responsive.productos-selec(src="images/b1.jpg")
+						.sale SALE
+						.new NEW
+						.descrip.text-center
+							p.bold.padt10p Deliver Wide
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star-empty
+							i.glyphicon.glyphicon-star-empty
+						.costes.text-center
+							p.inline.pad7pr 
+								strike $242.00
+							p.inline.pad7pl.text-rojo $218.00
+					.col-md-3.productos
+						img.img-responsive.productos-selec(src="images/c1.jpg")
+						.sale SALE
+						.descrip.text-center
+							p.bold.padt10p Deliver Wide
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star-empty
+							i.glyphicon.glyphicon-star-empty
+						.costes.text-center
+							p.inline.pad7pr
+								strike $242.00
+							p.inline.pad7pl.text-rojo $218.00
+					.col-md-3.productos
+						img.img-responsive.productos-selec(src="images/d1.jpg")
+						.new NEW
+						.descrip.text-center
+							p.bold.padt10p Deliver Wide
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star-empty
+							i.glyphicon.glyphicon-star-empty
+							p.costes $218.00
+		.fondo-cli
+			.container					
+				.row 
+					ul
+						li.list.inline.clientes
+							img.img-responsive(src="images/client1.jpg")
+						li.list.inline.clientes
+							img.img-responsive(src="images/client2.jpg")
+						li.list.inline.clientes
+							img.img-responsive(src="images/client3.jpg")
+						li.list.inline.clientes
+							img.img-responsive(src="images/client4.jpg")
+						li.list.inline.clientes
+							img.img-responsive(src="images/client5.jpg")
+						li.list.inline.clientes
+							img.img-responsive(src="images/client6.jpg")
+				.row
+					.col-md-4
+						hr
+					.col-md-4
+						ul.deconon
+							li.inline
+								a.lista-hori CLOTHING
+							li.inline 
+								a.lista-hori EQUIPMENTS
+							li.inline
+								a.lista-hori JEWELLERY
+					.col-md-4
+						hr					
+				.row
+					.col-md-4
+						ul.deconon.relative
+							li.pad10pr.productos2.inline
+								.sale SALE
+								.new NEW
+								img.img-responsive(src="images/a2.jpg")
+							li.pad10pl.inline.productos3
+								.descrip-articulos
+									p.pad15b.bold Deliver Wide
+									.costes.pad8b
+										p.inline
+											strike$242.00
+										p.inline.text-rojo $218.00
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star-empty
+									i.glyphicon.glyphicon-star-empty
+									.add-cart.pad8tp
+										a.fondo-cafe.titulo
+											i.glyphicon.glyphicon-shopping-cart.inline
+											p.inline Add to Cart
+						ul.deconon.relative
+							li.pad10pr.productos2.inline
+								img.img-responsive(src="images/c2.jpg")
+								.new NEW
+							li.pad10pl.inline.productos3
+								.descrip-articulos
+									p.pad15b.bold Deliver Wide
+									p.pad8b.text-rojo.font17 $218.00
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star-empty
+									i.glyphicon.glyphicon-star-empty
+									.add-cart.pad8tp
+										a.fondo-cafe.titulo
+											i.glyphicon.glyphicon-shopping-cart.inline
+											p.inline Add to Cart
+					.col-md-4
+						ul.deconon.relative
+							li.pad10pr.productos2.inline
+								img.img-responsive(src="images/d2.jpg")
+								.new NEW
+							li.pad10pl.inline.productos3
+								.descrip-articulos
+									p.pad15b.bold Deliver Wide
+									.costes.pad8b
+										p.inline
+											strike$242.00
+										p.inline.text-rojo $218.00
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star-empty
+									i.glyphicon.glyphicon-star-empty.pad8b
+									.add-cart.pad8tp
+										a.fondo-cafe.titulo
+											i.glyphicon.glyphicon-shopping-cart.inline
+											p.inline Add to Cart
+						ul.deconon.relative
+							li.pad10pr.productos2.inline
+								img.img-responsive(src="images/c2.jpg")
+								.sale SALE
+							li.pad10pl.inline.productos3
+								.descrip-articulos
+									p.pad15b.bold Deliver Wide
+									.costes.pad8b
+										p.inline
+											strike$218.00
+										p.inline.text-rojo $242.00
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star-empty
+									i.glyphicon.glyphicon-star-empty.pad8b
+									.add-cart.pad8tp
+										a.fondo-cafe.titulo
+											i.glyphicon.glyphicon-shopping-cart.inline
+											p.inline Add to Cart
+					.col-md-4
+						ul.deconon.relative
+							li.pad10pr.productos2.inline
+								img.img-responsive(src="images/g2.jpg")
+							li.pad10pl.inline.productos3
+								.descrip-articulos
+									p.pad15b.bold Deliver Wide
+									p.pad8b.text-rojo.font17 $218.00
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star-empty
+									i.glyphicon.glyphicon-star-empty.pad8b
+									.add-cart.pad8tp
+										a.fondo-cafe.titulo
+											i.glyphicon.glyphicon-shopping-cart.inline
+											p.inline Add to Cart
+						ul.deconon.relative
+							li.pad10pr.productos2.inline
+								img.img-responsive(src="images/e2.jpg")
+								.new NEW
+							li.pad10pl.inline.productos3
+								.descrip-articulos
+									p.pad15b.bold Deliver Wide
+									p.pad8b.text-rojo.font17 $218.00
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star
+									i.glyphicon.glyphicon-star-empty
+									i.glyphicon.glyphicon-star-empty.pad8b
+									.add-cart.pad8tp
+										a.fondo-cafe.titulo
+											i.glyphicon.glyphicon-shopping-cart.inline
+											p.inline Add to Cart
+				.row
+					.col-md-5
+						hr
+					.col-md-2.text-center
+						ul.deconon
+							li 
+								a.lista-hori BLOG
+					.col-md-5
+						hr
+				.row
+					.col-md-3
+						.blog-list
+							img.img-responsive(src="images/blog2.jpg")
+							h5 
+								b THE SAMPLE HEADING TITLE
+							h6 27/11/2015
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. istinctio facere unde natus cumque.
+							a.text-rojo Read more...
+					.col-md-3
+						.blog-list
+							img.img-responsive(src="images/blog1.jpg")
+							h5 
+								b THE SAMPLE HEADING TITLE
+							h6 27/11/2015
+							p Lorem ipsum dolor sit amet, onsectetur adipisicing elit. Distinctio facere unde natus cumque.
+							a.text-rojo Read more...
+					.col-md-3
+						.blog-list
+							img.img-responsive(src="images/blog2.jpg")
+							h5 
+								b THE SAMPLE HEADING TITLE
+							h6 27/11/2015
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio facere unde natus cumque.
+							a.text-rojo Read more...
+					.col-md-3
+						.blog-list
+							img.img-responsive(src="images/blog3.jpg")
+							h5 
+								b THE SAMPLE HEADING TITLE
+							h6 27/11/2015
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio facere unde natus cumque.
+							a.text-rojo Read more...
+				.row
+					.col-md-4
+						.cajas
+							.icon.inline
+								i.ion-ios-telephone-outline.inline.icon-position
+							.text.inline
+							h5.inline ORDER ONLINE NOW
+								p.text-peque Call us: (0123) 456 789
+					.col-md-4
+						.cajas
+							.icon.inline
+								i.ion-plane.inline.icon-position
+							.text.inline
+							h5.inline FREE WORLDWIDE SHIPPING
+								p.text-peque On Order Over $100
+					.col-md-4
+						.cajas
+							.icon.inline
+								img.inline.icon-position.billete(src="images/billete.jpg")
+							.text.inline
+							h5.inline 30 DAYS MONEY BACK 100%
+									p.text-peque Satisfaction Guarantee
+		.Fondo-gris.marpad
+			.container
+				.row
+					.col-md-3
+						h4.bold ACCESORIES
+						p.pie-text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quod mollitia dolorem laborum omnis totam et, placeat, quibusdam distinctio.
+						i
+						i
+						i
+						i
+						i							
+					.col-md-2
+						h4.bold MY ACCOUNT
+						ul.deconon
+							li
+								i.inline.ion-ios-play
+									p.inline.font-weigh My Account
+							li
+								i.inline.ion-ios-play
+									p.inline.font-weigh Order History
+							li
+								i.inline.ion-ios-play
+									p.inline.font-weigh Wish List
+							li
+								i.inline.ion-ios-play
+									p.inline.font-weigh Newsletter
+					.col-md-2
+						h4.bold INFORMATION
+						ul.deconon
+							li
+								i.inline.ion-ios-play
+									p.inline.font-weigh About us
+							li
+								i.inline.ion-ios-play
+									p.inline.font-weigh Delivery Information
+							li
+								i.inline.ion-ios-play
+									p.inline.font-weigh Privacy Policy
+							li
+								i.inline.ion-ios-play
+									p.inline.font-weigh Terms & Condicions
+					.col-md-2
+						h4.bold EXTRAS
+						ul.deconon
+							li
+								i.inline.ion-ios-play
+									p.inline.font-weigh Brands
+							li
+								i.inline.ion-ios-play
+									p.inline.font-weigh Gift Vouchers
+							li
+								i.inline.ion-ios-play
+									p.inline.font-weigh Affiliates
+							li
+								i.inline.ion-ios-play
+									p.inline.font-weigh Specials
+					.col-md-3
+						h4.bold ABOUT US
+						ul
+							li
+								i
+								p 8901 Marmora Road, Glasgow DO4 89
+								p GR. New York
+							li
+								i
+								p (0123)456789
+								p (0987)654321
+							li
+								i.glyphicon.glyphicon-triangle-right
+								p admin@bootexperts.com
+		footer
+			.container
+				.row.fondo-pie
+					.col-md-6
+						p.inline Copyright &copy;2015 
+							a.inline BootExperts.
+						p.inline All rights reserved.
+					.col-md-6
+						img.text-left(src="images/payment.png")
+		script(src="js/jquery-1.12.3.min.js")
+		script(src="js/bootstrap.min.js")
